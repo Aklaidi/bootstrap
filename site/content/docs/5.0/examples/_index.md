@@ -11,7 +11,7 @@ aliases: "/examples/"
   <p>{{ $entry.description }}</p>
   {{ if eq $entry.category "RTL" -}}
     <div class="bd-callout bd-callout-warning">
-      <p>The RTL feature is still <strong>experimental</strong> and will probably evolve according to users feedback. Spotted something or have any improvement to suggest? <a href="{{ $.Site.Params.repo }}/issues/new">Open an issue</a>, we'd love to get your insights.</p>
+      <p>The RTL feature is still <strong>experimental</strong> and will probably evolve according to user feedback. Spotted something or have an improvement to suggest? <a href="{{ $.Site.Params.repo }}/issues/new">Open an issue</a>, we'd love to get your insights.</p>
     </div>
   {{ end -}}
 
