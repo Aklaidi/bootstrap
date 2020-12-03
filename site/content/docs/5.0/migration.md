@@ -11,6 +11,8 @@ toc: true
 
 ### RTL
 
+**The RTL feature is still experimental and will probably evolve according to users feedback.** Spotted something or have any improvement to suggest? [Open an issue]({{< param repo >}}/issues/new), we'd love to get your insights.
+
 #### Sass
 
 Horizontal direction sensitive variables, utilities and mixins are renamed with more logical names — `start` and `end` in lieu of `left` and `right`.

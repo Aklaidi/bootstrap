@@ -12,6 +12,12 @@ We recommend getting familiar with Bootstrap first by reading through our [Getti
 
 You may also want to read up on [the RTLCSS project](https://rtlcss.com/), as it powers our approach to RTL.
 
+{{< callout warning >}}
+### Experimental feature
+
+The RTL feature is still **experimental** and will probably evolve according to users feedback. Spotted something or have any improvement to suggest? [Open an issue]({{< param repo >}}/issues/new), we'd love to get your insights.
+{{< /callout >}}
+
 ## Required HTML
 
 There are two strict requirements for enabling RTL in Bootstrap-powered pages.

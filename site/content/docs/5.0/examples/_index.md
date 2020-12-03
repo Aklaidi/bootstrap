@@ -9,6 +9,11 @@ aliases: "/examples/"
 {{ range $entry := $.Site.Data.examples -}}
   <h2 id="{{ $entry.category | urlize }}">{{ $entry.category }}</h2>
   <p>{{ $entry.description }}</p>
+  {{ if eq $entry.category "RTL" -}}
+    <div class="bd-callout bd-callout-warning">
+      <p>The RTL feature is still <strong>experimental</strong> and will probably evolve according to users feedback. Spotted something or have any improvement to suggest? <a href="{{ $.Site.Params.repo }}/issues/new">Open an issue</a>, we'd love to get your insights.</p>
+    </div>
+  {{ end -}}
 
   {{ range $i, $example := $entry.examples -}}
     {{- $len := len $entry.examples -}}
